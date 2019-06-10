@@ -1,0 +1,49 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.task-completed {
+    text-decoration: line-through; 
+}
+
+.form .text-field {
+    width: 350px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.form text-field:focus {
+    outline: none;
+
+}
+
+.form div .button {
+    padding: 5px 10px;
+    width: 120px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: solid black;
+}
+
+.form div .button:first-child {
+    margin-right: 60px;
+}
+
+.form div .button:focus {
+    outline: none;
+}
+
+.form div .button:hover {
+    color: solid black;
+    border-bottom: 2px solid dodgerblue;
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+
+
