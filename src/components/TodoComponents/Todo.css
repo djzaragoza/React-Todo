@@ -32,7 +32,7 @@
 }
 
 .form div .button:first-child {
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .form div .button:focus {
@@ -40,9 +40,9 @@
 }
 
 .form div .button:hover {
-    color: black;
-    border-bottom: 1px solid crimson;
-    transform: scale(1.2);
+    color: solid black;
+    border-bottom: 2px solid dodgerblue;
+    transform: scale(1.4);
     transition: 0.4s;
 }
 
