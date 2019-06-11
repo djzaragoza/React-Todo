@@ -2,6 +2,8 @@
     margin: 0 auto;
     text-align: center;
     background-color: lightgray;
+    background-size: cover;
+    background: url(react_todo_bg.jfif);
 }
 
 .task-completed {
